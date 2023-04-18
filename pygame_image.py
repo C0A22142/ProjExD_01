@@ -20,7 +20,7 @@ def main():
         x = tmr % 1600
         screen.blit(bg_img, [-tmr, 0])
         screen.blit(bg_img, [1600 - x, 0])
-        screen.blit(kk_imgs[tmr%2], [300, 200])
+        screen.blit(kk_imgs[tmr%4], [300, 200])
 
         pg.display.update()
         clock.tick(100)
