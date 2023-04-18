@@ -18,7 +18,7 @@ def main():
 
         tmr += 1
         x = tmr % 1600
-        screen.blit(bg_img, [-tmr, 0])
+        screen.blit(bg_img, [-x, 0])
         screen.blit(bg_img, [1600 - x, 0])
         screen.blit(kk_imgs[tmr%4], [300, 200])
 
